@@ -1,0 +1,40 @@
+.container  {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.input_box {
+    display: inline;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(11, 178, 184);
+    border-radius: 5px 0 0 5px;
+    background: #f4faf9;
+    transition: background .25s, box-shadow .25s;
+    height: 1em;
+ 
+}
+.label_box {
+    color: white
+}
+
+.button_form {
+    width: 7em;
+    height: 3em;
+    background-color: rgb(27, 71, 122);;
+    color: white;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: .3s;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+
+.button_form:hover{
+    background-color: rgba(19, 109, 211, 0.884);;
+
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: rgb(243, 235, 235);
+}
+.button_back {
+    width: 7em;
+    height: 3em;
+    background-color: rgb(27, 71, 122);;
+    color: white;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: .3s;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+.button_back a {
+    color: wheat;
+}

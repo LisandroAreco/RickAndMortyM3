@@ -1,0 +1,27 @@
+
+img {
+    width: 20vw;
+    border-radius: 50%;
+    box-shadow: 0px 1px 40px px #add8e6;
+    transition: .3s;
+    
+}
+img:hover {
+    transform: scale(1.02,1.02);
+
+    box-shadow: 0px 1px 40px 3px #2182d3;
+}
+
+h2 {
+
+    text-shadow: 0 0 4px #070606, 0 0 3px #0c0a0a, 0 0 15px #FFF, 0 0 10px #ffe865fa, 0 0 3px #ffe865fa, 0 0 40px #ffe865fa, 0 0 55px #ffe865fa, 0 0 75px #ffe865fa;
+    color: #ffffffe0;
+    text-align: center;
+    transition: .1s;
+
+}
+h2:first-child:hover {
+    transform: scale(1.1,1.1);
+
+
+}

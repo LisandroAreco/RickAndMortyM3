@@ -1,0 +1,14 @@
+body {
+   
+   background-image: 
+   url("../public/Earth\ 4k\ -\ 1920x1080\ Wallpaper\ -\ teahub_io.jpeg");
+   background-size: cover;
+   background-attachment:fixed;
+   background-position:center center;
+   background-repeat: no-repeat;
+   height: 100%;
+   width: 100%;
+
+   
+}
+

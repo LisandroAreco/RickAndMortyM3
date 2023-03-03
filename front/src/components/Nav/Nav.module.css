@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 1.8vw;
+    
+}
+.menu > *:last-child {
+    margin-right: 1rem;
+}
+
+.menuItem {
+    text-shadow: none;
+
+    color: #ffffffe0;
+    transition: .8s;
+}
+.menuItem:hover {
+    text-shadow: 3px 3px 7px white
+
+}
